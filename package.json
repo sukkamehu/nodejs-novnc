@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-novnc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juuso Saari",
+  "license": "ISC",
+  "dependencies": {
+    "@maximegris/node-websockify": "^1.0.7",
+    "express": "^4.17.1"
+  }
+}

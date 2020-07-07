@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  novnc:
+    restart: always
+    build: ./
+    container_name: novnc
+    ports:
+      - "8000:8000"
+      - "8001:8001"    
+    environment:
+      - USE_CASE=DRUM_INFEED
+      - VNC_HOST=172.22.128.1:5900
