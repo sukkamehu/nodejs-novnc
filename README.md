@@ -1,6 +1,7 @@
 # nodejs-novnc
 Simplified comprehensive implementation to get VNC client to work in almost any machine. Made possible thanks to projects node-websockify & noVNC.
 
+Tested to work with: MacOS Catalina (10.15.3), Windows 10 64 bit
 
 ***********************
 **With Docker Container**
