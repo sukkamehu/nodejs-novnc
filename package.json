@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@maximegris/node-websockify": "^1.0.7",
-    "express": "^4.17.3"
+    "express": "^4.19.2"
   }
 }
